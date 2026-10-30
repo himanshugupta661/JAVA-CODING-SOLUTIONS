@@ -1,21 +1,25 @@
 
+import java.io.*;
+import java.util.*;
 
-    static boolean isAnagram(String a, String b) {
-        // Complete the function
-        a = a.toLowerCase();
-b = b.toLowerCase();
+public class Solution {
 
-if (a.length() != b.length()) {
-    return false;
-}
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine().trim();
 
-char[] arrA = a.toCharArray();
-char[] arrB = b.toCharArray();
+        if (s.length() == 0) {
+            System.out.println(0);
+        } else {
+            String[] tokens = s.split("[ !,?._'@]+");
 
-java.util.Arrays.sort(arrA);
-java.util.Arrays.sort(arrB);
+            System.out.println(tokens.length);
 
-return java.util.Arrays.equals(arrA, arrB);   
+            for (String token : tokens) {
+                System.out.println(token);
+            }
+        }
+
+        scan.close();
     }
-    
-
+}
