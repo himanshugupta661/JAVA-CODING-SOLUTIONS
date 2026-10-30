@@ -37,7 +37,7 @@ To make the problem easier, a portion of the code is already provided in the edi
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T18:29:21.870Z  
+**Submitted:** 2026-10-30T18:29:24.735Z  
 
 ```java
 
