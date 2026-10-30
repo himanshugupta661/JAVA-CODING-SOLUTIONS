@@ -1,10 +1,24 @@
 
-
-        //Write your code here
-Arrays.sort(s, 0, n, new Comparator<String>() {
-    public int compare(String a, String b) {
-        BigDecimal bd1 = new BigDecimal(a);
-        BigDecimal bd2 = new BigDecimal(b);
-        return bd2.compareTo(bd1);
+class MyCalculator {
+    /*
+    * Create the method long power(int, int) here.
+    */
+    long power(int n, int p) throws Exception {
+    if (n < 0 || p < 0) {
+        throw new Exception("n or p should not be negative.");
     }
-});
+
+    if (n == 0 && p == 0) {
+        throw new Exception("n and p should not be zero.");
+    }
+
+    long result = 1;
+
+    for (int i = 0; i < p; i++) {
+        result *= n;
+    }
+
+    return result;
+}
+}
+
