@@ -30,7 +30,7 @@ For each query, print the corresponding series on a new line. Each series must b
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-30T18:34:43.215Z  
+**Submitted:** 2026-10-30T18:34:45.442Z  
 
 ```java
 
